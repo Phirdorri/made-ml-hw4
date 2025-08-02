@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run price_app.py
+web: streamlit run price_app.py --server.address 0.0.0.0 --server.port $PORT
